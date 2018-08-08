@@ -9,11 +9,13 @@ package com.demo;
 public class HelloWorld {
 
     public static void main(String[] args) {
+        String str = "aa这是一条测试信息";
+        System.out.println(str.charAt(1) == 97);
         /**
          * 这是一个测试的程序
          */
         System.out.println("Hello World;");
-        test();
+        //test();
     }
     /** 
       * @Description:
