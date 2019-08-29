@@ -263,7 +263,7 @@ public class FileTest {
                 }
                 //解压后输出文件
                 os = new FileOutputStream(outPath);
-                byte[] buf1 = new byte[1024];
+                byte[] buf1 = new byte[byteLen];
                 int len;
                 while((len = is.read(buf1)) > 0){
                     os.write(buf1,0,len);
