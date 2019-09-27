@@ -78,6 +78,11 @@ public class Person {
                         "Bob",
                         IsoChronology.INSTANCE.date(2000, 9, 12),
                         Person.Sex.MALE, "bob@example.com"));
+        /*roster.add(
+                new Person(
+                        "walloce",
+                        IsoChronology.INSTANCE.date(2000, 9, 12),
+                        Person.Sex.MALE, "bob@example.com"));*/
 
         return roster;
     }
